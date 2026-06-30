@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5a0235/v1
+canonical_location: https://kanripo.org/bkk/KR5a0235/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 修丹妙用至理論
+  identifiers:
+    alt_id:
+    - DZ0234
+  date: '2015-08-28 23:42:45.865982'
+  source:
+    repository: kanripo
+    path: KR5a0235
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0235_000.yaml, hash: 'sha256:2d5ec1024b1c9ba15ac55f61589d452ffee8f12357d3f08fa8a760ddea7248d7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0235_000.markers.yaml, hash: 'sha256:c61f525a864e6b085f0e64494182ee4e0fe5824d5259bfaf8f03f4487d3c3d4f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0235_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2973
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:511969327ffe6d929e8f111ee56213ee1b8301e3a06096ef65b0a1db7cdac43a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
